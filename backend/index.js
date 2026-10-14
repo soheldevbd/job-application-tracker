@@ -13,5 +13,5 @@ app.get('/api/health', function (res, req) {
 });
 app.listen(port, async function () {
   await connectDb();
-  console.log('server is running 3000');
+  console.log('server is running is 3000');
 });
